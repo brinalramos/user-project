@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif , sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #623b72;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    border: 2px solid rgba(0, 0, 0, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 30px 40px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.wrapper h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(241, 140, 250);
+
+}
+
+.wrapper p{
+    font-size: 17px;
+    text-align: center;
+    padding: 5px;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    margin-top: -30%;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+}
+
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: black;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -1px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+    color: #a5197b;
+    font-weight: bolder;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 30px;
+    background-color: #623b72;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+
+.register-link a{
+    color: #623b72;
+    text-decoration: none;
+    font-weight: 600;
+    font-weight: bolder;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+    color: #a5197b;
+    font-weight: bolder;
+    
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 20px;
+    }
+
+    .wrapper h1 {
+        font-size: 35px;
+    }
+
+    .wrapper p {
+        font-size: 15px;
+    }
+
+    .wrapper .btn {
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
